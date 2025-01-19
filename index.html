@@ -1,0 +1,327 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Hong Kong City</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<style>
+		.flex-container {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+	}
+
+	.hours, .contact {
+		width: 48%;
+	}
+
+	.hours ul, .contact ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	.hours h3, .contact h3 {
+		margin-bottom: 10px;
+	}
+
+	.divided.icons li {
+		margin-bottom: 10px;
+	}
+		.aligned-hours {
+		list-style: none;
+		padding: 0;
+	}
+
+	.aligned-hours li {
+		white-space: pre; /* Preserves spaces for alignment */
+	}
+
+	.contact {
+		padding: 0;
+		margin: 0;
+	}
+
+	.contact-list {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+
+	.contact-list li {
+		display: flex;
+		align-items: center; /* Aligns icon and text vertically */
+		padding: 25px 0; /* Adds space around each item */
+	}
+
+	.contact-list li img.icon {
+		width: 24px; /* Adjust icon size */
+		height: 24px;
+		margin-right: 10px; /* Space between icon and text */
+	}
+
+	.contact-list hr {
+		border: 0;
+		border-top: 1px solid #ccc; /* Adds a subtle separator line */
+		margin: 5px 0; /* Space around the separator line */
+	}
+
+		.row {
+		display: flex;
+		justify-content: space-evenly; /* Ensures even spacing between the sections */
+		align-items: flex-start; /* Aligns the sections at the top */
+		flex-wrap: wrap; /* Allows wrapping on smaller screens */
+	}
+
+	.feature {
+		text-align: center; /* Centers content within each section */
+	}
+
+	.feature img {
+		max-width: 100%; /* Ensures images are responsive */
+		height: auto;
+	}
+
+	.container {
+		max-width: 1200px; /* Ensures the container is not too wide */
+		margin: 0 auto;
+		padding: 20px;
+	}
+
+
+	</style>
+	<body class="homepage is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<div id="header" class="container">
+
+						<!-- Logo -->
+							<h1 id="logo"><a href="index.html">Hong Kong City</a></h1>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li><a href="menu/index.html">Menu</a></li>
+									<li class="break"><a href="contact.html">Contact Us</a></li>
+								</ul>
+							</nav>
+
+					</div>
+
+					<!-- Hero -->
+						<section id="hero" class="container">
+							<header>
+								<h2 style="font-size: 2em;">Welcome to Hong Kong City Chinese Restaurant</br> where delicious Chinese-American favorites bring people together.</h2>
+							</header>
+							<p>Our dishes are all about familiar flavors, generous portions, and a cozy atmosphere that makes you feel right at home. Whether it’s takeout night or a sit-down meal with loved ones, we’re here to make it easy, delicious, and satisfying.</p>
+							<ul class="actions">
+								<li><a href="menu/index.html" class="button">See Our Menu</a></li>
+							</ul>
+						</section>
+				</div>
+
+
+			<!-- Features 1 -->
+			<div class="wrapper">
+				<div class="container">
+					<div class="row gtr-uniform aln-center">
+						<!-- Pick Up Catering Section -->
+						<section class="col-5 col-12-narrower feature">
+							<div class="image-wrapper first">
+								<a href="#" class="image featured first">
+									<img src="images/takeout.jpg" alt="Pick Up Catering" />
+								</a>
+							</div>
+							<header>
+								<h2>Pick Up Catering</h2>
+							</header>
+							<ul class="actions">
+								<li><a href="#" class="button">Order Now, Pick Up & Pay in Store</a></li>
+							</ul>
+						</section>
+
+						<!-- DoorDash Section -->
+						<section class="col-5 col-12-narrower feature">
+							<div class="image-wrapper">
+								<a href="https://www.doordash.com/store/hong-kong-city-smyrna-27909004/?event_type=autocomplete&pickup=false" class="image featured">
+									<img src="images/deliver.jpg" alt="DoorDash" />
+								</a>
+							</div>
+							<header>
+								<h2>DoorDash</h2>
+							</header>
+							<ul class="actions">
+								<li><a href="https://www.doordash.com/store/hong-kong-city-smyrna-27909004/?event_type=autocomplete&pickup=false" class="button">Order for Delivery on DoorDash</a></li>
+							</ul>
+						</section>
+					</div>
+				</div>
+			</div>
+
+
+			<!-- Features 2 -->
+				<div class="wrapper">
+					<section class="container">
+						<h2>Our Best Sellers</h2>
+						<div class="row features">
+							<section class="col-4 col-12-narrower feature">
+								<div class="image-wrapper first">
+									<a class="image featured"><img src="images/happy.gif" alt="" /></a>
+								</div>
+							</section>
+							<section class="col-4 col-12-narrower feature">
+								<div class="image-wrapper">
+									<a class="image featured"><img src="images/lunchspecial.gif" alt="" /></a>
+								</div>
+							</section>
+							<section class="col-4 col-12-narrower feature">
+								<div class="image-wrapper">
+									<a class="image featured"><img src="images/seafood.gif" alt="" /></a>
+								</div>
+							</section>
+							<section class="col-4 col-12-narrower feature">
+								<div class="image-wrapper first">
+									<a class="image featured"><img src="images/classic.gif" alt="" /></a>
+								</div>
+							</section>
+							<section class="col-4 col-12-narrower feature">
+								<div class="image-wrapper">
+									<a class="image featured"><img src="images/sesame.gif" alt="" /></a>
+								</div>
+							</section>
+							<section class="col-4 col-12-narrower feature">
+								<div class="image-wrapper">
+									<a class="image featured"><img src="images/pork.gif" alt="" /></a>
+								</div>
+							</section>
+						</div>
+					</section>
+				</div>
+
+
+
+			<!-- Promo -->
+				<div id="promo-wrapper">
+					<section id="promo">
+						<h2>Located at 2142 S Cobb Dr SE, Smyrna, GA 30082</h2>
+						<a href="https://www.google.com/maps/place/Hong+Kong+City/@33.9006161,-84.5453612,17z/data=!3m1!4b1!4m6!3m5!1s0x88f517208210a8cd:0x9e7d8ddd68686c01!8m2!3d33.9006161!4d-84.5427863!16s%2Fg%2F1tkkvqjq?authuser=0&entry=ttu&g_ep=EgoyMDI1MDExNS4wIKXMDSoASAFQAw%3D%3D" class="button">Find Us</a>
+					</section>
+				</div>
+
+			<!-- Features 2 -->
+				<div class="wrapper">
+					<section class="container">
+						<div class="row features">
+							<section class="col-4 col-12-narrower feature">
+								<div class="image-wrapper first">
+									<a class="image featured"><img src="images/bold.gif" alt="" /></a>
+								</div>
+							</section>
+							<section class="col-4 col-12-narrower feature">
+								<div class="image-wrapper">
+									<a class="image featured"><img src="images/fast.gif" alt="" /></a>
+								</div>
+							</section>
+							<section class="col-4 col-12-narrower feature">
+								<div class="image-wrapper">
+									<a class="image featured"><img src="images/generous.gif" alt="" /></a>
+								</div>
+							</section>
+							<section class="col-4 col-12-narrower feature">
+								<div class="image-wrapper first">
+									<a class="image featured"><img src="images/unwind.gif" alt="" /></a>
+								</div>
+							</section>
+							<section class="col-4 col-12-narrower feature">
+								<div class="image-wrapper">
+									<a class="image featured"><img src="images/bring.gif" alt="" /></a>
+								</div>
+							</section>
+							<section class="col-4 col-12-narrower feature">
+								<div class="image-wrapper">
+									<a class="image featured"><img src="images/bring.gif" alt="" /></a>
+								</div>
+							</section>
+						</div>
+					</section>
+				</div>
+
+
+			<!-- Footer -->
+				<div id="footer-wrapper">
+					<div id="footer" class="container">
+						<header class="major">
+							<h2>Thank you for supporting our small business!</h2>
+							<p>Hablamos Español. 我们说普通话。</p>
+						</header>
+						<div class="row">
+							<section class="col-12">
+								<div class="flex-container">
+									<!-- Hours of Operation -->
+									<div class="col-6" style="margin-left: 10%;">
+										<h3>Hours of Operation</h3>
+										<ul class="aligned-hours">
+										   <li>Sunday				11:00 AM – 10:00 PM</li>
+											<li>Monday			11:00 AM – 10:00 PM</li>
+											<li>Tuesday			Closed</li>
+											<li>Wednesday			11:00 AM – 10:00 PM</li>
+											<li>Thursday			11:00 AM – 10:00 PM</li>
+											<li>Friday 				11:00 AM – 11:00 PM</li>
+											<li>Saturday			11:00 AM – 11:00 PM</li>
+										</ul>
+									</div>
+
+					<!-- Contact Info -->
+					<div class="contact">
+					<div class="row gtr-0">
+						<ul class="contact-list">
+							<!-- Phone -->
+							<li>
+								<img src="images/phone.png" alt="Phone Icon" class="icon" />
+								<span>(770) 436-6887</span>
+							</li>
+							<hr />
+							<!-- Email -->
+							<li>
+								<img src="images/email.png" alt="Email Icon" class="icon" />
+								<span>hongkongcitysmyrna@gmail.com</span>
+							</li>
+							<hr />
+							<!-- Address -->
+							<li>
+								<img src="images/location.png" alt="Location Icon" class="icon" />
+								<span>2142 S Cobb Dr SE, Smyrna, GA 30082</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+								</div>
+							</section>
+						</div>
+
+						</div>
+					</div>
+					<div id="copyright" class="container">
+						<ul class="menu">
+							<li>&copy; Hong Kong City. All rights reserved.</li>
+						</ul>
+					</div>
+				</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

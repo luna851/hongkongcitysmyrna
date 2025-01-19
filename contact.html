@@ -1,0 +1,314 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Hong Kong City</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+		<style>
+		.flex-container {
+		display: flex;
+		justify-content: space-between;
+			align-items: flex-start;
+		}
+
+		.hours, .contact {
+			width: 48%; /* Adjust to control the width of each section */
+		}
+
+		.hours ul, .contact ul {
+			list-style: none;
+			padding: 0;
+		}
+
+		.hours h3, .contact h3 {
+			margin-bottom: 10px;
+		}
+
+		.divided.icons li {
+			margin-bottom: 10px;
+		}
+			.aligned-hours {
+			list-style: none;
+			padding: 0;
+		}
+
+		.aligned-hours li {
+			white-space: pre; /* Preserves spaces for alignment */
+		}
+
+		.contact {
+			padding: 0;
+			margin: 0;
+		}
+
+		.contact-list {
+			list-style: none;
+			padding: 0;
+			margin: 0;
+		}
+
+		.contact-list li {
+			display: flex;
+			align-items: center; /* Aligns icon and text vertically */
+			padding: 25px 0; /* Adds space around each item */
+		}
+
+		.contact-list li img.icon {
+			width: 24px; /* Adjust icon size */
+			height: 24px;
+			margin-right: 10px; /* Space between icon and text */
+		}
+
+		.contact-list hr {
+			border: 0;
+			border-top: 1px solid #ccc; /* Adds a subtle separator line */
+			margin: 5px 0; /* Space around the separator line */
+		}
+
+			.row {
+			display: flex;
+			justify-content: space-evenly; /* Ensures even spacing between the sections */
+			align-items: flex-start; /* Aligns the sections at the top */
+			flex-wrap: wrap; /* Allows wrapping on smaller screens */
+		}
+
+		.feature {
+			text-align: center; /* Centers content within each section */
+		}
+
+		.feature img {
+			max-width: 100%; /* Ensures images are responsive */
+			height: auto;
+		}
+
+		.container {
+			max-width: 1200px; /* Ensures the container is not too wide */
+			margin: 0 auto;
+			padding: 20px;
+		}
+
+/* General layout */
+#main .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Ensure responsiveness */
+}
+
+.col-6 {
+    width: 48%; /* Adjust to control spacing */
+}
+
+/* Review Section */
+#review-section {
+    text-align: left;
+}
+
+.review-icons {
+    display: flex;
+    gap: 15px; /* Space between icons */
+    margin-top: 10px;
+}
+
+.review-icons img.icon {
+    width: 40px; /* Adjust icon size */
+    height: auto;
+}
+
+/* Form Section */
+#content {
+    text-align: left;
+}
+/* Reduce top margin or padding under the navigation bar */
+.wrapper {
+    margin-top: 0; /* Removes any default top margin */
+    padding-top: 0; /* Adjust to control spacing below navigation bar */
+}
+
+/* Optional: Remove additional padding for the container */
+.container {
+    padding-top: 0; /* Adjust spacing inside the container */
+}
+    /* Adjust input and textarea styles */
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        font-size: 14px; /* Smaller font size */
+        padding: 0; /* Reduce padding to make boxes less tall */
+        height: auto; /* Ensures height adjusts dynamically */
+        border: 1px solid #ccc; /* Subtle border */
+        border-radius: 4px; /* Smooth corners */
+        box-sizing: border-box; /* Ensures padding doesn’t add to overall width */
+        margin-bottom: 0px; /* Space between elements */
+    }
+
+    /* Focus style for input fields */
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    textarea:focus {
+        outline: none; /* Removes the default blue outline */
+        border-color: #ff7e5f; /* Highlight color on focus */
+        box-shadow: 0 0 5px rgba(255, 126, 95, 0.5); /* Subtle glow */
+    }
+
+    textarea {
+        resize: vertical; /* Allow vertical resizing only */
+        min-height: 50px; /* Minimum height */
+    }
+
+    /* Adjust the submit and reset buttons */
+    .actions input {
+        font-size: 14px; /* Smaller font size for buttons */
+        padding: 5px 5em; /* Less padding for a compact look */
+        border-radius: 4px;
+    }
+    /* Reduce spacing and padding for .col-12 */
+    .col-12 {
+        padding: 0; /* Reduce padding inside the div (top and bottom) */
+        margin-bottom: 0; /* Reduce space between consecutive .col-12 elements */
+    }
+
+    /* Optional: Reduce spacing for form rows */
+    .row.gtr-50 {
+        margin-top: 0; /* Less space above the form rows */
+        margin-bottom: 0; /* Less space below the form rows */
+    }
+
+    /* Optional: Reduce spacing for actions (buttons) */
+    .actions {
+        margin-top: 5px; /* Reduce space above the action buttons */
+        margin-bottom: 0; /* No unnecessary space below the buttons */
+    }
+
+
+	</style>
+	<body class="no-sidebar is-preload">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<div id="header" class="container">
+
+						<!-- Logo -->
+							<h1 id="logo"><a href="index.html">Hong Kong City</a></h1>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li><a href="menu/index.html">Menu</a></li>
+									<li class="break"><a href="contact.html">Contact Us</a></li>
+								</ul>
+							</nav>
+
+					</div>
+				</div>
+<!-- Main -->
+<div class="wrapper">
+    <div class="container" id="main">
+        <div class="row gtr-50">
+
+            <!-- Left Section -->
+            <div class="col-6 col-12-mobile">
+                <article id="review-section">
+                    <h2>We'd Love to Hear From You!</h2>
+                    <p>Review us on Yelp and Google to let us know how we did.</p>
+                    <div class="review-icons">
+                        <a href="https://www.yelp.com/biz/hong-kong-city-smyrna?osq=hong+kong+city" target="_blank">
+                            <img src="images/yelp.png" alt="Yelp Icon" class="icon" />
+                        </a>
+                        <a href="https://www.google.com/search?q=hong+kong+city+smyrna+reviews&sca_esv=7aa396a9a2ee648c&rlz=1C1VDKB_enUS1041US1041&sxsrf=ADLYWIIcLmqetKTpN14NwWAdHcfzA3Ot-w%3A1736059890828&ei=8it6Z_OcMp_Hwt0PiNWr2Qg&si=ACC90nzcy7sviKw0NTZoUBUzhQehr3jouizIrVSf6avWI23m1RiNuWZlaI23rFyYYV5eoazGpGzjcBY7MM2ubsncqiUeoMDNyVM1XpzP_5RmY-Cjhp8-jSkEgBjUkg1HPP-HHEfhnh-pESOS40qiZbCpWvk6e0Qpcg%3D%3D&ictx=1&ved=2ahUKEwjRu4PK_92KAxWvmIQIHekCC-8Q8mt6BQiUARAR#lrd=0x88f517208210a8cd:0x9e7d8ddd68686c01,1&ebo=0" target="_blank">
+                            <img src="images/google.png" alt="Google Icon" class="icon" />
+                        </a>
+                    </div>
+                    <p></p>
+					<h3>Call us, email us, come on down & see us!</h3>
+					<p>Hablamos Español. 我们说普通话。</p>
+					<div class="review-icons">
+                        <a>
+                            <img src="images/phone.png" alt="Yelp Icon" class="icon" />
+                        </a>
+						<p>(770) 436-6887</br></p>
+                    </div>
+					<div class="review-icons">
+                        <a>
+                            <img src="images/email.png" alt="Google Icon" class="icon" />
+						</a>
+						<p>hongkongcitysmyrna@gmail.com</br></p>
+                    </div>
+					<div class="review-icons">
+						<a>
+                            <img src="images/location.png" alt="Google Icon" class="icon" />
+                        </a>
+						<p>2142 S Cobb Dr SE, Smyrna, GA 30082</br></p>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Right Section -->
+            <div class="col-6 col-12-mobile">
+                <article id="content">
+                    <form method="post" action="#">
+                        <div class="row gtr-50">
+                        <h3>Hours of Operation</h3>
+                                <ul class="aligned-hours">
+                                   <li>Sunday				11:00 AM – 10:00 PM</li>
+                                    <li>Monday			11:00 AM – 10:00 PM</li>
+                                    <li>Tuesday			Closed</li>
+                                    <li>Wednesday			11:00 AM – 10:00 PM</li>
+                                    <li>Thursday			11:00 AM – 10:00 PM</li>
+                                    <li>Friday 				11:00 AM – 11:00 PM</li>
+                                    <li>Saturday			11:00 AM – 11:00 PM</li>
+                                </ul>
+                            <div class="col-12">
+                                <h3>Contact Us</h3>
+                            </div>
+                            <div class="col-6 col-12-mobile">
+                                <input name="name" placeholder="Name" type="text" required />
+                            </div>
+                            <div class="col-6 col-12-mobile">
+                                <input name="email" placeholder="Email" type="email" required />
+                            </div>
+                            <div class="col-12">
+                                <textarea name="message" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <ul class="actions">
+                                    <li><input type="submit" value="Send" /></li>
+                                    <li><input type="reset" value="Clear" /></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </form>
+                </article>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+					<div id="copyright" class="container">
+						<ul class="menu">
+							<li>&copy; Hong Kong City. All rights reserved.</li>
+						</ul>
+					</div>
+				</div>
+
+
+		</div>
+
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,1080 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Hong Kong City</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/features.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<style>
+		#first ul.features,
+		#second ul.features,
+		#third ul.features,
+		#fourth ul.features,
+		#fifth ul.features,
+		#sixth ul.features,
+		#seventh ul.features,
+		#eighth ul.features,
+		#ninth ul.features,
+		#tenth ul.features,
+		#eleventh ul.features,
+		#twelfth ul.features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            list-style: none;
+            padding: 0;
+        }
+
+		#first ul.features li,
+		#second ul.features li,
+		#third ul.features li,
+		#fourth ul.features li,
+		#fifth ul.features li,
+		#sixth ul.features li,
+		#seventh ul.features li,
+		#eighth ul.features li,
+		#ninth ul.features li,
+		#tenth ul.features li,
+		#eleventh ul.features li,
+		#twelfth ul.features li {
+            width: 25; /* Adjust to fit 4 items per row */
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        #first ul.features img,
+		#second ul.features img,
+		#third ul.features img,
+		#fourth ul.features img,
+		#fifth ul.features img,
+		#sixth ul.features img,
+		#seventh ul.features img,
+		#eighth ul.features img,
+		#ninth ul.features img,
+		#tenth ul.features img,
+		#eleventh ul.features img,
+		#twelfth ul.features img {
+            height: 200px;
+            object-fit: cover; /* Ensures images look good */
+            margin-bottom: 5px; /* Adds space below the image */
+			max-width: 100%;
+			object-fit: cover;
+        }
+
+		.features {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr); /* 4 items per row */
+			gap: 0; /* Space between items */
+			list-style: none;
+			padding: 0 5px;
+			margin: 0 auto;
+		}
+
+		.features li {
+			text-align: center;
+			list-style: none;
+			padding: 10px;
+			background: #f9f9f9; /* Optional: Add a background color */
+			border-radius: 8px; /* Optional: Rounded corners */
+			box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+		}
+
+		.special-item {
+			height: 100px;
+			max-width: 100%;
+			object-fit: cover;
+		}
+
+		@media (max-width: 1024px) {
+			.features {
+				grid-template-columns: repeat(3, 1fr); /* 3 items per row for tablets */
+			}
+		}
+
+		@media (max-width: 768px) {
+			.features {
+				grid-template-columns: repeat(2, 1fr); /* 2 items per row for mobile */
+			}
+		}
+
+		@media (max-width: 480px) {
+			.features {
+				grid-template-columns: 1fr; /* 1 item per row for small screens */
+			}
+		}
+
+	</style>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<span class="logo">
+							<img src="images/hkclogo.png" alt="" style="width: 180px; height: auto;" />
+						</span>
+						<h1>Full Menu</h1>
+						<h2>In-Store Pricing. DoorDash prices may be higher due to additional fees.</h2>
+						<ul class="actions special">
+							<li><a href="../index.html" class="button">← Back to Homepage</a></li>
+							<li><a href="https://www.doordash.com/store/hong-kong-city-smyrna-27909004/?event_type=autocomplete&pickup=false" class="button primary">Order on DoorDash →</a></li>
+						</ul>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#second">Specials</a></li>
+							<li><a href="#third">Combos</a></li>
+							<li><a href="#fourth">Appetizers</a></li>
+							<li><a href="#fifth">Fried Rice</a></li>
+							<li><a href="#sixth">Noodles</a></li>
+							<li><a href="#seventh">Chef Specialties</a></li>
+							<li><a href="#eighth">Vegetables</a></li>
+							<li><a href="#ninth">Chicken</a></li>
+							<li><a href="#tenth">Pork</a></li>
+							<li><a href="#eleventh">Beef</a></li>
+							<li><a href="#twelfth">Seafood</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+
+						<!-- Second Section -->
+						<section id="second" class="main special">
+							<header class="major">
+								<h2>Specials</h2>
+							</header>
+							<ul class="features">
+								<li>
+									<img src="images/specials/friedwing.jpg" alt="Fried Wings">
+									<h3>Fried Wings</h3>
+									<p>Golden fried, juicy chicken wings, lightly seasoned. (8 piece)</br>$6.75</p>
+								</li>
+								<li>
+									<img src="images/specials/hotwing.jpg" alt="Hot Wings">
+									<h3>Hot Wings</h3>
+									<p>Crispy chicken wings drenched in a fiery, tangy sauce for the ultimate heat. (8 piece)</br>$7.00</p>
+								</li>
+								<li>
+									<img src="images/specials/buffalowing.jpg" alt="Buffalo Wings">
+									<h3>Buffalo Wings</h3>
+									<p>The same great wing with a buttery and mild kick. (8 piece)</br>$7.00</p>
+								</li>
+								<li>
+									<img src="images/specials/lemonpepperwing.jpg" alt="Lemon Pepper Wings">
+									<h3>Lemon Pepper Wings</h3>
+									<p>A zesty blend of lemon and cracked pepper for a burst of bright and savory. (8 piece)</br>$7.00</p>
+								</li>
+								<li>
+									<img src="images/specials/garlicwing.jpg" alt="Garlic Wings">
+									<h3>Garlic Wings</h3>
+									<p>Garlic-infused wings for a bold flavor. (8 piece)</br>$7.00</p>
+								</li>
+								<li>
+									<img src="images/specials/sesamewing.jpg" alt="Sesame Wings">
+									<h3>Sesame Wings</h3>
+									<p>Sweet and savory wings topped with sesame seeds. (8 piece)</br>$7.00</p>
+								</li>
+								<li>
+									<img src="images/specials/teriyakiwing.jpg" alt="Teriyaki Wings">
+									<h3>Teriyaki Wings</h3>
+									<p>Glazed in a rich teriyaki sauce. (8 piece)</br>$7.00</p>
+								</li>
+								<li>
+									<img src="images/specials/hongkongwing.jpg" alt="Hong Kong Wings">
+									<h3>Hong Kong Wings</h3>
+									<p>Signature wings with a sweet and tangy glaze and a bit of spice. (8 piece)</br>$7.00</p>
+								</li>
+								<li>
+									<img src="images/specials/braisedwing.jpg" alt="Braised Wings">
+									<h3>Braised Wings</h3>
+									<p>Deep-fried then simmered wings in a savory and rich sauce. (8 piece)</br>$7.00</p>
+								</li>
+								<li>
+									<img src="images/specials/friedcrab.jpg" alt="Fried Crab">
+									<h3>Fried Crab Sticks</h3>
+									<p>Deliciously crisp and golden crab sticks, fried to perfection. (4 piece)</br>$6.50</p>
+								</li>
+								<li>
+									<img src="images/specials/friedshrimp.jpg" alt="Fried Shrimp">
+									<h3>Fried Shrimp</h3>
+									<p>Juicy, golden butterfly fried shrimp in a breadcrumb batter. (15 piece)</br>$6.50</p>
+								</li>
+								<li>
+									<img src="images/specials/friedwhitingfish.jpg" alt="Fried Whiting Fish">
+									<h3>Fried Whiting Fish</h3>
+									<p>Lightly seasoned and fried whiting fish fillets, crispy on the outside, flaky on the inside. (2 piece)</br>$6.50</p>
+								</li>
+								<li>
+									<img src="images/specials/friedscallops.jpg" alt="Fried Scallops">
+									<h3>Fried Scallops</h3>
+									<p>Jumbo-sized scallops sealed in a crispy golden batter. (10 piece)</br>$6.75</p>
+								</li>
+								<li>
+									<img src="images/specials/spareribtips.jpg" alt="Pork Rib Tips">
+									<h3>Spare Rib Tips</h3>
+									<p>Succulent pork rib tips marinated in a rich, tangy glaze.</br>$6.50</p>
+								</li>
+								<li>
+									<img src="images/specials/friedwing.jpg" alt="info">
+									<h3>Large Order of Wings</h3>
+									<p>Wings are available in large orders of 20, 30, 50, or 100 pieces in any choice of our 9 delicious flavors.</br> $15.99, $21.99, $31.99, $58.99</p>
+								</li>
+								<li>
+									<img src="images/specials/friedwing.jpg" alt="info">
+									<h3>Pickup Catering</h3>
+									<p>Also check out our other options for pickup catering here</p>
+								</li>
+							</ul>
+						</section>
+
+
+					<!-- Third Section -->
+						<section id="third" class="main special">
+							<header class="major">
+								<h2>Combination Plates</h2>
+								<p>All Combo Plates are $11.99 and come in a quart sized plate with 1/2 dish, 1/2 regular fried rice, and 1 pork egg roll. (Substitutes for rice and egg rolls are allowed.)</p>
+							</header>
+							<ul class="features">
+								<li>
+									<img src="images/combinationplates/76.jpg" alt="General Tso's Chicken Plate">
+									<h3>General Tso's Chicken Plate</h3>
+								</li>
+								<li>
+									<img src="images/combinationplates/77.jpg" alt="Sesame Chicken Plate">
+									<h3>Sesame Chicken Plate</h3>
+								</li>
+								<li>
+									<img src="images/combinationplates/79.jpg" alt="Orange Chicken Plate">
+									<h3>Orange Chicken Plate</h3>
+								</li>
+								<li>
+									<img src="images/combinationplates/83.jpg" alt="Sweet & Sour Chicken Plate">
+									<h3>Sweet & Sour Chicken Plate</h3>
+								</li>
+								<li>
+									<img src="images/combinationplates/90.jpg" alt="Chicken with Broccoli Plate">
+									<h3>Chicken with Broccoli Plate</h3>
+								</li>
+								<li>
+									<img src="images/combinationplates/89.jpg" alt="Beef with Broccoli Plate">
+									<h3>Beef with Broccoli Plate</h3>
+								</li>
+								<li>
+									<img src="images/combinationplates/81.jpg" alt="Shrimp with Broccoli Plate">
+									<h3>Shrimp with Broccoli Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Chicken with Mixed Vegetables Plate">
+									<h3>Chicken with Mixed Vegetables Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Beef with Mixed Vegetables Plate">
+									<h3>Beef with Mixed Vegetables Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Shrimp with Mixed Vegetables Plate">
+									<h3>Shrimp with Mixed Vegetables Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Chicken with Chinese Vegetables Plate">
+									<h3>Chicken with Chinese Vegetables Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Beef with Chinese Vegetables Plate">
+									<h3>Beef with Chinese Vegetables Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Pork with Chinese Vegetables Plate">
+									<h3>Pork with Chinese Vegetables Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Chicken with Garlic Sauce Plate">
+									<h3>Chicken with Garlic Sauce Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Beef with Garlic Sauce Plate">
+									<h3>Beef with Garlic Sauce Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Shrimp with Garlic Sauce Plate">
+									<h3>Shrimp with Garlic Sauce Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Hunan Chicken Plate">
+									<h3>Hunan Chicken Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Hunan Beef Plate">
+									<h3>Hunan Beef Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Hunan Shrimp Plate">
+									<h3>Hunan Shrimp Plate</h3>
+								</li>
+								<li>
+									<img src="images/combinationplates/95.jpg" alt="Szechuan Beef Plate">
+									<h3>Szechuan Chicken Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Szechuan Beef Plate">
+									<h3>Szechuan Beef Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Szechuan Shrimp Plate">
+									<h3>Szechuan Shrimp Plate</h3>
+								</li>
+								<li>
+									<img src="images/combinationplates/85.jpg" alt="Kung Pao Chicken Plate">
+									<h3>Kung Pao Chicken Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Curry Chicken Plate">
+									<h3>Curry Chicken Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Curry Beef Plate">
+									<h3>Curry Beef Plate</h3>
+								</li>
+								<li>
+									<img src="images/combinationplates/62.jpg" alt="Chicken Lo Mein Plate">
+									<h3>Chicken Lo Mein Plate</h3>
+								</li>
+								<li>
+									<img src="images/combinationplates/64.jpg" alt="Beef Lo Mein Plate">
+									<h3>Beef Lo Mein Plate</h3>
+								</li>
+								<li>
+									<img src="images/combinationplates/63.jpg" alt="Shrimp Lo Mein Plate">
+									<h3>Shrimp Lo Mein Plate</h3>
+								</li>
+								<li>
+									<img src="images/combinationplates/61.jpg" alt="Pork Lo Mein Plate">
+									<h3>Pork Lo Mein Plate</h3>
+								</li>
+								<li>
+									<img src="images/combinationplates/65.jpg" alt="House Special Lo Mein Plate">
+									<h3>House Special Lo Mein Plate</h3>
+								</li>
+								<li>
+									<img src="images/combinationplates/66.jpg" alt="Vegetable Lo Mein Plate">
+									<h3>Vegetable Lo Mein Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="House Special Chow Mein Plate">
+									<h3>House Special Chow Mein Plate</h3>
+								</li>
+								<li>
+									<img src="images/combinationplates/84.jpg" alt="Chicken Chow Mein Plate">
+									<h3>Chicken Chow Mein Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Beef Chow Mein Plate">
+									<h3>Beef Chow Mein Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Shrimp Chow Mein Plate">
+									<h3>Shrimp Chow Mein Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Pork Chow Mein Plate">
+									<h3>Pork Chow Mein Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Shrimp Egg Foo Young Plate">
+									<h3>Shrimp Egg Foo Young Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Pork Egg Foo Young Plate">
+									<h3>Pork Egg Foo Young Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Chicken Egg Foo Young Plate">
+									<h3>Chicken Egg Foo Young Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Beef Egg Foo Young Plate">
+									<h3>Beef Egg Foo Young Plate</h3>
+								</li>
+								<li>
+									<img src="images/combinationplates/78.jpg" alt="Mongolian Chicken Plate">
+									<h3>Mongolian Chicken Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Mongolian Beef Plate">
+									<h3>Mongolian Beef Plate</h3>
+								</li>
+								<li>
+									<img src="images/combinationplates/82.jpg" alt="Pepper Steak with Onions Plate">
+									<h3>Pepper Steak with Onions Plate</h3>
+								</li>
+								<li>
+									<img src="images/combinationplates/87.jpg" alt="Shrimp with Lobster Sauce Plate">
+									<h3>Shrimp with Lobster Sauce Plate</h3>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Scallops in Garlic Sauce Plate">
+									<h3>Scallops in Garlic Sauce Plate</h3>
+								</li>
+								<li>
+									<img src="images/combinationplates/88.jpg" alt="Moo Goo Gai Pan Plate">
+									<h3>Moo Goo Gai Pan Plate</h3>
+								</li>
+								<li>
+									<img src="images/combinationplates/97.jpg" alt="Mixed Vegetables Plate">
+									<h3>Mixed Vegetables Plate</h3>
+								</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+							</ul>
+
+						</section>
+
+					<!-- Fourth Section -->
+						<section id="fourth" class="main special">
+							<header class="major">
+								<h2>Appetizers</h2>
+							</header>
+							<ul class="features">
+								<li>
+									<img src="images/appetizers/creamcheesewontons.jpg" alt="Cream Cheese Wontons">
+									<h3>Cream Cheese Wontons</h3>
+									<p>Golden fried wontons filled with rich, creamy cheese. A perfect blend of crunch and indulgence. (10 piece)</br>$5.25</p>
+								</li>
+								<li>
+									<img src="images/appetizers/frenchfries.jpg" alt="French Fries">
+									<h3>French Fries</h3>
+									<p>Classic crinkle-cut fries, fried to a golden crisp and seasoned to perfection.</br>$3.99</p>
+								</li>
+								<li>
+									<img src="images/appetizers/friedporkdumplings.jpg" alt="Fried Pork Dumplings">
+									<h3>Fried Pork Dumplings</h3>
+									<p>Delicious dumplings stuffed with savory pork, pan-fried to crispy perfection. (8 piece)</br>$5.50</p>
+								</li>
+								<li>
+									<img src="images/appetizers/porkeggroll.jpg" alt="Pork Egg Roll">
+									<h3>Pork Egg Roll</h3>
+									<p>Freshly rolled and fried with a savory pork filling encased in a crispy, crackly, bubbling crust. (1 piece)</br>$1.75</p>
+								</li>
+								<li>
+									<img src="images/appetizers/sauces.jpg" alt="Sauces">
+									<h3>Choice of Sauces</h3>
+									<p>Sweet & sour, Braised, Ranch, Blue Cheese, or Hot Sauce. </br>(8 oz container)</br>$1.00</p>
+								</li>
+								<li>
+									<img src="images/appetizers/shrimpeggroll.jpg" alt="Shrimp Egg Roll">
+									<h3>Shrimp Roll</h3>
+									<p>The delicate flavor of plump whole shrimp and fresh cabbage in a hearty, thick wrapper. (1 piece)</br>$1.89</p>
+								</li>
+								<li>
+									<img src="images/appetizers/steamedporkdumplings.jpg" alt="Steamed Pork Dumplings">
+									<h3>Steamed Pork Dumplings</h3>
+									<p>Juicy pork-filled dumplings steamed to tender perfection. (8 piece)</br>$5.50</p>
+								</li>
+								<li>
+									<img src="images/appetizers/vegetableeggroll.jpg" alt="Vegetable Egg Roll">
+									<h3>Vegetable Egg Roll</h3>
+									<p>Crisp egg roll filled with fresh, flavorful vegetables and fried to a golden hue. (2 piece)</br>$2.99</p>
+								</li>
+							</ul>
+						</section>
+
+
+					<!-- Fifth Section -->
+						<section id="fifth" class="main special">
+							<header class="major">
+								<h2>Fried Rice</h2>
+							</header>
+							<ul class="features">
+								<li>
+									<img src="images/friedrice/housespecialfriedrice.jpg" alt="House Special Fried Rice">
+									<h3>House Special Fried Rice</h3>
+									<p>Our signature fried rice loaded with chicken, shrimp, pork and fresh vegetables.</br>$12.99</p>
+								</li>
+								<li>
+									<img src="images/friedrice/chickenfriedrice.jpg" alt="Chicken Fried Rice">
+									<h3>Chicken Fried Rice</h3>
+									<p>Flavorful fried rice mixed with juicy chicken, carrots, peas, and onions.</br>$9.75</p>
+								</li>
+								<li>
+									<img src="images/friedrice/porkfriedrice.jpg" alt="Pork Fried Rice">
+									<h3>Pork Fried Rice</h3>
+									<p>Rich and savory fried rice mixed with tender pork and veggies.</br>$9.75</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Beef Fried Rice">
+									<h3>Beef Fried Rice</h3>
+									<p>Classic stir-fried rice with tender beef, fresh vegetables, and soy sauce.</br>$9.50</p>
+								</li>
+								<li>
+									<img src="images/friedrice/shrimpfriedrice.jpg" alt="Shrimp Fried Rice">
+									<h3>Shrimp Fried Rice</h3>
+									<p>Savory fried rice with plump shrimp and a dash of soy sauce.</br>$9.75</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Crab Fried Rice">
+									<h3>Crab Fried Rice</h3>
+									<p>Delicious fried rice cooked with crab meat and aromatic garlic soy sauce.</br>$9.75</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Vegetable Fried Rice">
+									<h3>Vegetable Fried Rice</h3>
+									<p>A healthier option featuring fresh broccoli, mushrooms, and cabbage, perfectly complemented by a classic trio of peas, carrots, and onions.</br>$8.75</p>
+								</li>
+								<li>
+									<img src="images/friedrice/regularfriedrice.jpg" alt="Regular Fried Rice">
+									<h3>Regular Fried Rice</h3>
+									<p>Classic fried rice with a medley of the trifecta peas, carrots, and onions.</br>$7.99</p>
+								</li>
+								<li>
+									<img src="images/friedrice/plainfriedrice.jpg" alt="Plain Fried Rice">
+									<h3>Plain Fried Rice</h3>
+									<p>Simple yet satisfying base, stir-fried with garlic and soy sauce.</br>$7.50</p>
+								</li>
+								<li>
+									<img src="images/friedrice/steamedwhiterice.jpg" alt="Steamed White Rice">
+									<h3>Steamed White Rice</h3>
+									<p>Fluffy and perfectly steamed white rice, ideal as a side dish.</br>$6.25</p>
+								</li>
+							</ul>
+						</section>
+
+
+						<!-- Sixth Section -->
+						<section id="sixth" class="main special">
+							<header class="major">
+								<h2>Noodles</h2>
+							</header>
+							<ul class="features">
+								<!-- Lo Mein -->
+								<li>
+									<img src="images/noodles/housespeciallomein.jpg" alt="House Special Lo Mein">
+									<h3>House Special Lo Mein</h3>
+									<p>A hearty medley of shrimp, chicken, and pork tossed with thick egg noodles in a savory sauce.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/noodles/chickenlomein.jpg" alt="Chicken Lo Mein">
+									<h3>Chicken Lo Mein</h3>
+									<p>Tender chicken stir-fried with thick egg noodles, carrots, onions, and cabbage in a flavorful sauce.</br>$9.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Pork Lo Mein">
+									<h3>Pork Lo Mein</h3>
+									<p>Savory pork with thick egg noodles and fresh vegetables in a rich sauce.</br>$9.99</p>
+								</li>
+								<li>
+									<img src="images/noodles/beeflomein.jpg" alt="Beef Lo Mein">
+									<h3>Beef Lo Mein</h3>
+									<p>Juicy beef stir-fried with thick egg noodles, onions, and carrots for a bold, flavorful dish.</br>$9.99</p>
+								</li>
+								<li>
+									<img src="images/noodles/shrimplomein.jpg" alt="Shrimp Lo Mein">
+									<h3>Shrimp Lo Mein</h3>
+									<p>Plump shrimp stir-fried with thick egg noodles and crisp vegetables in a savory sauce.</br>$9.99</p>
+								</li>
+								<li>
+									<img src="images/noodles/crablomein.jpg" alt="Crab Lo Mein">
+									<h3>Crab Lo Mein</h3>
+									<p>Succulent crab paired with thick egg noodles and stir-fried vegetables in a rich sauce.</br>$9.99</p>
+								</li>
+								<li>
+									<img src="images/noodles/vegetablelomein.jpg" alt="Vegetable Lo Mein">
+									<h3>Vegetable Lo Mein</h3>
+									<p>A fresh mix of carrots, cabbage, and onions tossed with thick egg noodles in a light sauce.</br>$9.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Singapore Rice Noodle">
+									<h3>Singapore Rice Noodle</h3>
+									<p>A flavorful blend of shrimp, chicken, and pork stir-fried with thin rice noodles, cabbage, onions, and carrots in a light curry sauce.</br>$9.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Chicken Mei Fun">
+									<h3>Chicken Mei Fun</h3>
+									<p>Tender chicken stir-fried with thin rice noodles, carrots, onions, and cabbage for a light and delicious option.</br>$8.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Beef Mei Fun">
+									<h3>Beef Mei Fun</h3>
+									<p>Juicy beef combined with thin rice noodles, crisp vegetables, and a touch of soy for a balanced flavor.</br>$9.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Shrimp Mei Fun">
+									<h3>Shrimp Mei Fun</h3>
+									<p>Delicate shrimp stir-fried with thin rice noodles, cabbage, onions, and carrots for a fresh, satisfying dish.</br>$9.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="House Mei Fun">
+									<h3>House Mei Fun</h3>
+									<p>A healthier mix of carrots, cabbage, and onions stir-fried with thin rice noodles for a wholesome option.</br>$9.99</p>
+								</li>
+							</ul>
+						</section>
+
+
+						<!-- Seventh Section -->
+						<section id="seventh" class="main special">
+							<header class="major">
+								<h2>Chef Specialties</h2>
+							</header>
+							<ul class="features">
+								<li>
+									<img src="images/chefspecialties/orangechicken.jpg" alt="Orange Chicken">
+									<h3>Orange Chicken</h3>
+									<p>Crispy chicken tossed in a zesty orange sauce with just the right balance of sweet and tangy.</br>$14.95</p>
+								</li>
+								<li>
+									<img src="images/chefspecialties/sesamechicken.jpg" alt="Sesame Chicken">
+									<h3>Sesame Chicken</h3>
+									<p>Crispy chicken coated in a sweet sesame glaze, garnished with sesame seeds for a delightful crunch.</br>$14.95</p>
+								</li>
+								<li>
+									<img src="images/chefspecialties/happyfamily.jpg" alt="Happy Family">
+									<h3>Happy Family</h3>
+									<p>A harmonious blend of chicken, shrimp, pork, crab meat, broccoli, mushrooms, and carrots cooked in a savory brown sauce.</br>$14.95</p>
+								</li>
+								<li>
+									<img src="images/chefspecialties/seafooddelight.jpg" alt="Seafood Delight">
+									<h3>Seafood Delight</h3>
+									<p>A seafood lover's dream with shrimp, lobster, crab, bay scallops, mushrooms, broccoli, and carrots in a delicate white sauce.</br>$15.95</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Four Seasons">
+									<h3>Four Seasons</h3>
+									<p>A medley of chicken, shrimp, pork, and beef stir-fried with broccoli, mushrooms, and carrots for a balanced feast of flavors.</br>$14.95</p>
+								</li>
+								<li>
+									<img src="images/chefspecialties/mongolianbeef.jpg" alt="Mongolian Beef">
+									<h3>Mongolian Beef</h3>
+									<p>Tender slices of beef stir-fried with onions and green onions in a savory brown sauce, full of bold flavors.</br>$14.95</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Mongolian Chicken">
+									<h3>Mongolian Chicken</h3>
+									<p>Tender chicken stir-fried with crisp green onions and sweet onions in a savory and slightly sweet Mongolian-style sauce.</br>$14.95</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="General Tso's Chicken">
+									<h3>General Tso's Chicken</h3>
+									<p>Golden, crispy chicken coated in a rich, tangy, and slightly spicy glaze for a crowd-pleasing classic.</br>$14.95</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Hunan Chicken">
+									<h3>Hunan Chicken</h3>
+									<p>Spicy chicken stir-fried with broccoli, mushrooms, and carrots in a savory brown sauce with a peppery kick.</br>$14.95</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Hunan Shrimp">
+									<h3>Hunan Shrimp</h3>
+									<p>Succulent shrimp cooked with broccoli, mushrooms, and carrots in a fiery, flavorful sauce with a touch of spice.</br>$14.95</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Hunan Chicken & Beef">
+									<h3>Hunan Chicken & Beef</h3>
+									<p>A perfect combination of tender chicken and beef with broccoli, mushrooms, and carrots in a spicy Hunan sauce.</br>$14.95</p>
+								</li>
+								<li>
+									<img src="images/chefspecialties/szechuanchicken.jpg" alt="Szechuan Chicken">
+									<h3>Szechuan Chicken</h3>
+									<p>A spicy Szechuan-style chicken stir-fry with peppers, onions, and a bold, flavorful sauce.</br>$14.95</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Szechuan Chicken & Beef">
+									<h3>Szechuan Chicken & Beef</h3>
+									<p>A robust mix of chicken and beef stir-fried with peppers and onions in a bold, spicy Szechuan sauce.</br>$14.95</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Hot & Spicy Chicken">
+									<h3>Hot & Spicy Chicken</h3>
+									<p>A fiery tomato-based brown sauce with hot peppers, onions, peas, and carrots coats tender chicken.</br>$14.95</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Hot & Spicy Beef">
+									<h3>Hot & Spicy Beef</h3>
+									<p>Beef simmered in a fiery tomato-based sauce with hot peppers, peas, carrots, and onions.</br>$14.95</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Hot & Spicy Shrimp">
+									<h3>Hot & Spicy Shrimp</h3>
+									<p>Succulent shrimp tossed in a hot and tangy tomato-based sauce with fresh vegetables for an extra kick.</br>$14.95</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Small Party Tray">
+									<h3>Small Party Tray</h3>
+									<p> </br>$39.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Large Party Tray">
+									<h3>Large Party Tray</h3>
+									<p> </br>$59.99</p>
+								</li>
+							</ul>
+						</section>
+
+
+					<!-- Eighth Section -->
+						<section id="eighth" class="main special">
+							<header class="major">
+								<h2>Vegetable</h2>
+							</header>
+							<ul class="features">
+								<li>
+									<img src="images/vegetable/broccoliwithgarlicsauce.jpg" alt="Broccoli with Garlic Sauce">
+									<h3>Broccoli with Garlic Sauce</h3>
+									<p>Fresh broccoli stir-fried in a garlic-infused sauce that's rich, sweet, and slightly spicy.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Bean Curd with Garlic Sauce">
+									<h3>Bean Curd with Garlic Sauce</h3>
+									<p>Silky bean curd simmered in a bold garlic sauce with a hint of sweetness and spice.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/vegetable/beancurdwithblackbeansauce.jpg" alt="Bean Curd in Black Bean Sauce">
+									<h3>Bean Curd in Black Bean Sauce</h3>
+									<p>Tender tofu infused with the deep, savory flavor of our traditional black bean sauce.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Bean Curd Szechuan Style">
+									<h3>Bean Curd Szechuan Style</h3>
+									<p>Soft bean curd simmered in our special in-house Szechuan sauce for a fiery and flavorful kick.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Mixed Vegetables">
+									<h3>Mixed Vegetables</h3>
+									<p>A medley of broccoli, carrots, mushrooms, cabbage, and onions stir-fried to perfection.</br>$10.99</p>
+								</li>
+							</ul>
+						</section>
+
+
+					<!-- Ninth Section -->
+							<section id="ninth" class="main special">
+							<header class="major">
+								<h2>Chicken</h2>
+							</header>
+							<ul class="features">
+								<li>
+									<img src="images/chicken/sweetandsourchicken.jpg" alt="Sweet & Sour Chicken">
+									<h3>Sweet & Sour Chicken</h3>
+									<p>Golden, juicy, batter-fried chicken served with a side of bright and tangy sweet & sour sauce.</br>$9.99</p>
+								</li>
+								<li>
+									<img src="images/chicken/chickenwithbroccoli.jpg" alt="Chicken with Broccoli">
+									<h3>Chicken with Broccoli</h3>
+									<p>Tender chicken stir-fried with fresh broccoli in a savory brown sauce.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/chefspecialties/orangechicken.jpg" alt="Orange Chicken">
+									<h3>Orange Chicken</h3>
+									<p>Crispy chicken tossed in a zesty orange sauce with just the right balance of sweet and tangy.</br>$14.95</p>
+								</li>
+								<li>
+									<img src="images/chicken/generaltsoschicken.jpg" alt="General Tso's Chicken">
+									<h3>General Tso's Chicken</h3>
+									<p>Crispy chicken tossed in a tangy, sweet, and spicy sauce with a touch of heat.</br>$14.95</p>
+								</li>
+								<li>
+									<img src="images/chicken/szechuanchicken.jpg" alt="Szechuan Chicken">
+									<h3>Szechuan Chicken</h3>
+									<p>Spicy chicken stir-fried with peppers, onions, and carrots in a fiery Szechuan sauce.</br>$14.95</p>
+								</li>
+								<li>
+									<img src="images/chicken/sesamechicken.jpg" alt="Sesame Chicken">
+									<h3>Sesame Chicken</h3>
+									<p>Lightly battered chicken glazed in a sweet sesame sauce and topped with toasted sesame seeds.</br>$14.95</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Chicken with Garlic Sauce">
+									<h3>Chicken with Garlic Sauce</h3>
+									<p>Succulent chicken sautéed with vegetables in a bold, spicy garlic sauce.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Chicken with Chinese Vegetable">
+									<h3>Chicken with Chinese Vegetable</h3>
+									<p>Chicken stir-fried with a medley of fresh Chinese vegetables in a light sauce.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Chicken with Mixed Vegetable">
+									<h3>Chicken with Mixed Vegetable</h3>
+									<p>Juicy chicken combined with a variety of seasonal vegetables in a flavorful sauce.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Cashew Chicken">
+									<h3>Cashew Chicken</h3>
+									<p>Sautéed chicken and crunchy cashews in a rich, savory sauce with fresh vegetables.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Curry Chicken">
+									<h3>Curry Chicken</h3>
+									<p>Chicken simmered in a fragrant curry sauce with vegetables for a flavorful kick.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/chicken/kungpaochicken.jpg" alt="Kung Pao Chicken">
+									<h3>Kung Pao Chicken</h3>
+									<p>Spicy chicken stir-fried with peanuts, peppers, and vegetables in a zesty sauce.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/chicken/moogoogaipian.jpg" alt="Moo Goo Gai Pan">
+									<h3>Moo Goo Gai Pan</h3>
+									<p>Tender chicken, mushrooms, carrots, and cabbage, all delicately stir-fried in a silky smooth white sauce.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Hunan Chicken">
+									<h3>Hunan Chicken</h3>
+									<p>Spicy chicken stir-fried with peppers, broccoli, mushrooms, and carrots in a rich Hunan sauce.</br>$14.95</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Chicken Chow Mein</h3>
+									<p>Authentic Eastern-style Chow Mein, featuring a medley of stir-fried vegetables and savory sauce, topped with crispy wonton noodles for the perfect crunch.</br>$11.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Chicken Egg Foo Young">
+									<h3>Chicken Egg Foo Young</h3>
+									<p>Fluffy egg patties with chicken and vegetables, topped with a savory brown sauce.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/chicken/mongolianchicken.jpg" alt="Mongolian Chicken">
+									<h3>Mongolian Chicken</h3>
+									<p>Tender chicken stir-fried with crisp green onions and sweet onions in a savory and slightly sweet Mongolian-style sauce.</br>$14.95</p>
+								</li>
+								<li>
+									<img src="images/noodles/chickenlomein.jpg" alt="Chicken Lo Mein">
+									<h3>Chicken Lo Mein</h3>
+									<p>Tender chicken stir-fried with thick egg noodles, carrots, onions, and cabbage in a flavorful sauce.</br>$9.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="Chicken Mei Fun">
+									<h3>Chicken Mei Fun</h3>
+									<p>Tender chicken stir-fried with thin rice noodles, carrots, onions, and cabbage for a light and delicious option.</br>$10.25</p>
+								</li>
+								<li>
+									<img src="images/friedrice/chickenfriedrice.jpg" alt="Chicken Fried Rice">
+									<h3>Chicken Fried Rice</h3>
+									<p>Flavorful fried rice mixed with juicy chicken, carrots, peas, and onions.</br>$9.75</p>
+								</li>
+							</ul>
+						</section>
+
+					<!-- Tenth Section -->
+						<section id="tenth" class="main special">
+							<header class="major">
+								<h2>Pork</h2>
+							</header>
+							<ul class="features">
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Pork Egg Foo Young</h3>
+									<p>Fluffy egg patties filled with tender pork and vegetables, served with a savory brown sauce.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Pork Chow Mein</h3>
+									<p>Classic Eastern-style pork chow mein topped with crispy wonton noodles.</br>$11.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Pork with Chinese Vegetable</h3>
+									<p>Sautéed pork paired with a medley of fresh Chinese vegetables in a light, flavorful sauce.</br>$11.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Pork with Broccoli</h3>
+									<p>Tender pork stir-fried with fresh broccoli in a savory brown sauce.</br>$8.95</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Mushroom Pork</h3>
+									<p>Savory pork stir-fried with mushrooms in a rich, flavorful sauce.</br>$8.95</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Pork with Mixed Vegetable</h3>
+									<p>Juicy pork cooked with a variety of fresh seasonal vegetables in a savory sauce.</br>$8.95</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Pork Lo Mein</h3>
+									<p>Soft noodles stir-fried with pork and crisp vegetables in a savory sauce.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/pork/porkfriedrice.jpg" alt="Pork Fried Rice">
+									<h3>Pork Fried Rice</h3>
+									<p>Classic fried rice with pork, peas, carrots, and onions for a satisfying meal.</br>$9.75</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Pork Mei Fun</h3>
+									<p>Thin rice noodles stir-fried with pork, cabbage, carrots, and onions for a flavorful dish.</br>$10.49</p>
+								</li>
+							</ul>
+						</section>
+
+
+					<!-- Eleventh Section -->
+						<section id="eleventh" class="main special">
+							<header class="major">
+								<h2>Beef</h2>
+							</header>
+							<ul class="features">
+								<li>
+									<img src="images/beef/peppersteak.jpg" alt="Pepper Steak with Onion">
+									<h3>Pepper Steak</h3>
+									<p>Tender beef stir-fried with fresh bell peppers and onions in a savory brown sauce.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/beef/beefwithbroccoli.jpg" alt="Beef with Broccoli">
+									<h3>Beef with Broccoli</h3>
+									<p>Succulent beef stir-fried with crisp broccoli in a rich, flavorful sauce.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Curry Beef</h3>
+									<p>Beef simmered in a fragrant curry sauce with fresh vegetables for a bold, spicy flavor.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Beef with Mushrooms</h3>
+									<p>Juicy beef stir-fried with tender mushrooms in a savory brown sauce.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Beef with Chinese Vegetables</h3>
+									<p>Beef sautéed with a medley of fresh Chinese vegetables in a light, flavorful sauce.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Beef with Mixed Vegetables</h3>
+									<p>Savory beef stir-fried with a variety of fresh seasonal vegetables in a rich sauce.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/noodles/beeflomein.jpg" alt="Beef Lo Mein">
+									<h3>Beef Lo Mein</h3>
+									<p>Juicy beef stir-fried with thick egg noodles, onions, and carrots for a bold, flavorful dish.</br>$9.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Beef Fried Rice</h3>
+									<p>Classic stir-fried rice with tender beef, fresh vegetables, and soy sauce.</br>$9.50</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Beef Mei Fun</h3>
+									<p>Juicy beef combined with thin rice noodles, crisp vegetables, and a touch of soy for a balanced flavor.</br>$10.50</p>
+								</li>
+							</ul>
+						</section>
+
+
+					<!-- Twelfth Section -->
+						<section id="twelfth" class="main special">
+							<header class="major">
+								<h2>Seafood</h2>
+							</header>
+							<ul class="features">
+								<li>
+									<img src="images/seafood/shrimpwithbroccoli.jpg" alt="Shrimp with Broccoli">
+									<h3>Shrimp with Broccoli</h3>
+									<p>Succulent shrimp stir-fried with fresh broccoli in a savory sauce.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/chefspecialties/seafooddelight.jpg" alt="Seafood Delight">
+									<h3>Seafood Delight</h3>
+									<p>A seafood lover's dream with shrimp, lobster, crab, bay scallops, mushrooms, broccoli, and carrots in a delicate white sauce.</br>$15.95</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Shrimp with Mixed Vegetables</h3>
+									<p>Juicy shrimp paired with a variety of seasonal vegetables in a flavorful sauce.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Shrimp with Chinese Vegetables</h3>
+									<p>Shrimp stir-fried with a medley of fresh Chinese vegetables in a light sauce.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Curry Shrimp</h3>
+									<p>Shrimp simmered in a fragrant curry sauce with fresh vegetables for bold flavor.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Shrimp with Garlic Sauce</h3>
+									<p>Plump shrimp sautéed in a bold and garlicky sauce with fresh vegetables.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/seafood/shrimpwithlobstersauce.jpg" alt="Shrimp with Lobster Sauce">
+									<h3>Shrimp with Lobster Sauce</h3>
+									<p>Classic shrimp in a silky white sauce with minced pork and peas for added flavor.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Lobster Sauce</h3>
+									<p>A smooth and savory white sauce with an umami-packed flavor. (1 qt container)</br>$11.99</p>
+								</li>
+								<li>
+									<img src="images/seafood/shrimplomein.jpg" alt="Shrimp Lo Mein">
+									<h3>Shrimp Lo Mein</h3>
+									<p>Soft noodles stir-fried with shrimp and crisp vegetables in a savory sauce.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/seafood/crablomein.jpg" alt="Crab Lo Mein">
+									<h3>Crab Lo Mein</h3>
+									<p>Tender noodles mixed with real crab meat and vegetables in a rich sauce.</br>$10.99</p>
+								</li>
+								<li>
+									<img src="images/seafood/shrimpfriedrice.jpg" alt="Shrimp Fried Rice">
+									<h3>Shrimp Fried Rice</h3>
+									<p>A timeless favorite, our tender shrimp take the center stage of this fried rice, complemented with fresh veggies at a price you can't beat.</br>$9.75</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Crab Fried Rice</h3>
+									<p>Flavorful fried rice mixed with real crab meat, peas, carrots, and onions.</br>$9.75</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Shrimp Mei Fun</h3>
+									<p>Thin rice noodles stir-fried with shrimp, cabbage, carrots, and onions for a flavorful dish.</br>$9.75</p>
+								</li>
+								<li>
+									<img src="images/photounavailable.jpg" alt="photo unavailable">
+									<h3>Hunan Shrimp</h3>
+									<p>Succulent shrimp cooked with broccoli, mushrooms, and carrots in a fiery, flavorful sauce with a touch of spice.</br>$14.95</p>
+								</li>
+							</ul>
+						</section>
+					</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
