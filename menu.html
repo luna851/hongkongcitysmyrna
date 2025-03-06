@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Hong Kong City</title>
+    </head>
+    <style>
+        .nav {
+            font-size: 0.85rem; 
+        }
+    </style>    
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Hong Kong City</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#specials" class="nav__link">Specials</a></li>
+                        <li class="nav__item"><a href="#combos" class="nav__link">Combos</a></li>
+                        <li class="nav__item"><a href="#appetizers" class="nav__link">Appetizers</a></li>
+                        <li class="nav__item"><a href="#fried-rice" class="nav__link">Fried Rice</a></li>
+                        <li class="nav__item"><a href="#noodles" class="nav__link">Noodles</a></li>
+                        <li class="nav__item"><a href="#chef-specialties" class="nav__link">Chef Specialties</a></li>
+                        <li class="nav__item dropdown">
+                            <a href="#" class="nav__link dropdown-toggle">Main Ingredients ▾</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#chicken" class="nav__link">Chicken</a></li>
+                                <li><a href="#pork" class="nav__link">Pork</a></li>
+                                <li><a href="#beef" class="nav__link">Beef</a></li>
+                                <li><a href="#seafood" class="nav__link">Seafood</a></li>
+                                <li><a href="#vegetable" class="nav__link">Vegetables</a></li>
+                            </ul>
+                        </li>
+                
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+                
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main"> 
+            
+            <!--========== CONTACT US ==========-->
+            <section class="contact section bd-container" id="contact">
+                <div class="contact__container bd-grid">
+                    <div class="contact__data">
+                        <span class="section-subtitle contact__initial">Full Menu</span>
+                        <h2 class="section-title contact__initial">Available for Dine-in, Pickup, and Delivery</h2>
+                        <p class="contact__description">Call us for pickup catering on large order items at (770) 436-6887.</p>
+                        <p class="contact__description">In-Store Pricing. DoorDash prices may be higher due to additional fees.</p>
+                        <a href="#" class="button">Location</a>
+                        <a href="#" class="button">DoorDash</a>
+                    </div>
+                    <div class="contact__map">
+                        <img src="assets/img/lunchspecial.png" alt="">
+                    </div>
+                </div>
+            </section>
+            
+            <!--========== LUNCH SPECIALS ==========-->
+            <section class="about section bd-container" id="about">
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial">only $10.99!</span>
+                        <h2 class="section-title about__initial">Lunch Special</h2>
+                        <p class="about__description">everyday from 11AM - 3PM</br></br>Combo Plates include your choice of entrée, </br>served with fried rice.</p>
+                        <a href="#combos" class="button">See Options</a>
+                    </div>
+                    <img src="assets/img/lunchspecial.png" alt="" class="about__img">
+                </div>
+            </section>
+
+            <!--========== MENU ==========-->
+            <section class="menu section bd-container" id="specials">
+                <h2 class="section-title">Specials</h2>
+            
+                <div class="menu__container bd-grid">
+                    <div class="menu__content">
+                        <img src="images/specials/friedwing.jpg" alt="Fried Wings" class="menu__img">
+                        <p><b>Fried Wings</b><br><small>(8 pc) Golden fried, juicy chicken wings, lightly seasoned.</small></p>
+                        <a href="#" class="button menu__button">$6.75</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/specials/hotwing.jpg" alt="Hot Wings" class="menu__img">
+                        <p><b>Hot Wings</b><br><small>(8 pc) Crispy chicken wings drenched in a fiery, tangy sauce for the ultimate heat.</small></p>
+                        <a href="#" class="button menu__button">$7.00</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/specials/buffalowing.jpg" alt="Buffalo Wings" class="menu__img">
+                        <p><b>Buffalo Wings</b><br><small>(8 pc) The same great wing with a buttery and mild kick.</small></p>
+                        <a href="#" class="button menu__button">$7.00</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/specials/lemonpepperwing.jpg" alt="Lemon Pepper Wings" class="menu__img">
+                        <p><b>Lemon Pepper Wings</b><br><small>(8 pc) A zesty blend of lemon and cracked pepper.</small></p>
+                        <a href="#" class="button menu__button">$7.00</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/specials/garlicwing.jpg" alt="Garlic Wings" class="menu__img">
+                        <p><b>Garlic Wings</b><br><small>(8 pc) Garlic-infused wings for a bold flavor.</small></p>
+                        <a href="#" class="button menu__button">$7.00</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/specials/sesamewing.jpg" alt="Sesame Wings" class="menu__img">
+                        <p><b>Sesame Wings</b><br><small>(8 pc) Sweet and savory wings topped with sesame seeds.</small></p>
+                        <a href="#" class="button menu__button">$7.00</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/specials/teriyakiwing.jpg" alt="Teriyaki Wings" class="menu__img">
+                        <p><b>Teriyaki Wings</b><br><small>(8 pc) Glazed in a rich teriyaki sauce.</small></p>
+                        <a href="#" class="button menu__button">$7.00</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/specials/hongkongwing.jpg" alt="Hong Kong Wings" class="menu__img">
+                        <p><b>Hong Kong Wings</b><br><small>(8 pc) Signature wings with a sweet and tangy glaze and a bit of spice.</small></p>
+                        <a href="#" class="button menu__button">$7.00</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/specials/braisedwing.jpg" alt="Braised Wings" class="menu__img">
+                        <p><b>Braised Wings</b><br><small>(8 pc) Deep-fried then simmered wings in a savory and rich sauce.</small></p>
+                        <a href="#" class="button menu__button">$7.00</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/specials/friedcrab.jpg" alt="Fried Crab Sticks" class="menu__img">
+                        <p><b>Fried Crab Sticks</b><br><small>(4 pc) Deliciously crisp and golden crab sticks, fried to perfection.</small></p>
+                        <a href="#" class="button menu__button">$6.50</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/specials/friedshrimp.jpg" alt="Fried Shrimp" class="menu__img">
+                        <p><b>Fried Shrimp</b><br><small>(15 pc) Juicy, golden butterfly fried shrimp in a breadcrumb batter.</small></p>
+                        <a href="#" class="button menu__button">$6.50</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/specials/friedwhitingfish.jpg" alt="Fried Whiting Fish" class="menu__img">
+                        <p><b>Fried Whiting Fish</b><br><small>(2 pc) Lightly seasoned and fried whiting fish fillets, crispy on the outside, flaky on the inside.</small></p>
+                        <a href="#" class="button menu__button">$6.50</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/specials/friedscallops.jpg" alt="Fried Scallops" class="menu__img">
+                        <p><b>Fried Scallops</b><br><small>(10 pc) Jumbo-sized scallops sealed in a crispy golden batter.</small></p>
+                        <a href="#" class="button menu__button">$6.75</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/specials/spareribtips.jpg" alt="Pork Rib Tips" class="menu__img">
+                        <p><b>Pork Rib Tips</b><br><small>Succulent pork rib tips marinated in a rich, tangy glaze.</small></p>
+                        <a href="#" class="button menu__button">$6.50</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/specials/friedwing.jpg" alt="Large Order Wings" class="menu__img">
+                        <p><b>Large Order Wings</b><br><small>20, 30, 50, or 100 pieces in any choice of our 9 delicious flavors.</small></p>
+                        <a href="#" class="button menu__button">$16, $22, $32, $59</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/specials/friedwing.jpg" alt="Pickup Catering" class="menu__img">
+                        <p><b>Pickup Catering</b><br><small>Also check out our other options for pickup catering here.</small></p>
+                        <a href="#" class="button menu__button">See Options</a>
+                    </div>
+                </div>
+            </section>
+            
+            
+            <section class="menu section bd-container" id="combos">
+                <h2 class="section-title">Combination Plates</h2>
+                <p>All Combo Plates are $11.99 and come in a quart-sized plate with 1/2 dish, 1/2 regular fried rice, and 1 pork egg roll. (Substitutes for rice and egg rolls are allowed.)</p>
+            
+                <div class="menu__container bd-grid">
+                    <!-- Items WITH pictures -->
+                    <div class="menu__content">
+                        <img src="images/combinationplates/76.jpg" alt="General Tso's Chicken Plate" class="menu__img">
+                        <p><b>General Tso's Chicken Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/combinationplates/77.jpg" alt="Sesame Chicken Plate" class="menu__img">
+                        <p><b>Sesame Chicken Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/combinationplates/79.jpg" alt="Orange Chicken Plate" class="menu__img">
+                        <p><b>Orange Chicken Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/combinationplates/83.jpg" alt="Sweet & Sour Chicken Plate" class="menu__img">
+                        <p><b>Sweet & Sour Chicken Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/combinationplates/90.jpg" alt="Chicken with Broccoli Plate" class="menu__img">
+                        <p><b>Chicken with Broccoli Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/combinationplates/89.jpg" alt="Beef with Broccoli Plate" class="menu__img">
+                        <p><b>Beef with Broccoli Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/combinationplates/81.jpg" alt="Shrimp with Broccoli Plate" class="menu__img">
+                        <p><b>Shrimp with Broccoli Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/combinationplates/95.jpg" alt="Szechuan Chicken Plate" class="menu__img">
+                        <p><b>Szechuan Chicken Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/combinationplates/85.jpg" alt="Kung Pao Chicken Plate" class="menu__img">
+                        <p><b>Kung Pao Chicken Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/combinationplates/62.jpg" alt="Chicken Lo Mein Plate" class="menu__img">
+                        <p><b>Chicken Lo Mein Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/combinationplates/64.jpg" alt="Beef Lo Mein Plate" class="menu__img">
+                        <p><b>Beef Lo Mein Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/combinationplates/63.jpg" alt="Shrimp Lo Mein Plate" class="menu__img">
+                        <p><b>Shrimp Lo Mein Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/combinationplates/61.jpg" alt="Pork Lo Mein Plate" class="menu__img">
+                        <p><b>Pork Lo Mein Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/combinationplates/65.jpg" alt="House Special Lo Mein Plate" class="menu__img">
+                        <p><b>House Special Lo Mein Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/combinationplates/66.jpg" alt="Vegetable Lo Mein Plate" class="menu__img">
+                        <p><b>Vegetable Lo Mein Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/combinationplates/84.jpg" alt="Chicken Chow Mein Plate" class="menu__img">
+                        <p><b>Chicken Chow Mein Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/combinationplates/78.jpg" alt="Mongolian Chicken Plate" class="menu__img">
+                        <p><b>Mongolian Chicken Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/combinationplates/82.jpg" alt="Pepper Steak with Onions Plate" class="menu__img">
+                        <p><b>Pepper Steak with Onions Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/combinationplates/87.jpg" alt="Shrimp with Lobster Sauce Plate" class="menu__img">
+                        <p><b>Shrimp with Lobster Sauce Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/combinationplates/88.jpg" alt="Moo Goo Gai Pan Plate" class="menu__img">
+                        <p><b>Moo Goo Gai Pan Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/combinationplates/97.jpg" alt="Mixed Vegetables Plate" class="menu__img">
+                        <p><b>Mixed Vegetables Plate</b></p>
+                    </div>
+                </div>
+                <div class="menu__container bd-grid">
+                    <!-- Items WITHOUT pictures -->
+                    <div class="menu__content">
+                        <p><b>Chicken with Mixed Vegetables Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Beef with Mixed Vegetables Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Shrimp with Mixed Vegetables Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Chicken with Chinese Vegetables Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Beef with Chinese Vegetables Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Pork with Chinese Vegetables Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Chicken with Garlic Sauce Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Beef with Garlic Sauce Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Shrimp with Garlic Sauce Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Hunan Chicken Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Hunan Beef Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Hunan Shrimp Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Szechuan Beef Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Szechuan Shrimp Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Curry Chicken Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Curry Beef Plate</b></p>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Mongolian Beef Plate</b></p>
+                    </div>
+                </div>
+            </section>
+            
+
+            <section class="menu section bd-container" id="appetizers">
+                <h2 class="section-title">Appetizers</h2>
+            
+                <div class="menu__container bd-grid">
+                    <!-- Items WITH pictures -->
+                    <div class="menu__content">
+                        <img src="images/appetizers/creamcheesewontons.jpg" alt="Cream Cheese Wontons" class="menu__img">
+                        <p><b>Cream Cheese Wontons</b></br><small>(10 pc) Golden fried wontons filled with rich, creamy cheese. A perfect blend of crunch and indulgence.</small></p>
+                        <a href="#" class="button menu__button">$5.25</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/appetizers/frenchfries.jpg" alt="French Fries" class="menu__img">
+                        <p><b>French Fries</b></br><small>Classic crinkle-cut fries, fried to a golden crisp and seasoned to perfection.</small></p>
+                        <a href="#" class="button menu__button">$3.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/appetizers/friedporkdumplings.jpg" alt="Fried Pork Dumplings" class="menu__img">
+                        <p><b>Fried Pork Dumplings</b></br><small>(8 pc) Delicious dumplings stuffed with savory pork, pan-fried to crispy perfection.</small></p>
+                        <a href="#" class="button menu__button">$5.50</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/appetizers/porkeggroll.jpg" alt="Pork Egg Roll" class="menu__img">
+                        <p><b>Pork Egg Roll</b></br><small>(1 pc) Freshly rolled and fried with a savory pork filling encased in a crispy, crackly, bubbling crust.</small></p>
+                        <a href="#" class="button menu__button">$1.75</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/appetizers/sauces.jpg" alt="Sauces" class="menu__img">
+                        <p><b>Choice of Sauces</b></br><small>Sweet & sour, Braised, Ranch, Blue Cheese, or Hot Sauce. (8 oz container)</small></p>
+                        <a href="#" class="button menu__button">$1.00</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/appetizers/shrimpeggroll.jpg" alt="Shrimp Egg Roll" class="menu__img">
+                        <p><b>Shrimp Roll</b></br><small>(1 pc) The delicate flavor of plump whole shrimp and fresh cabbage in a hearty, thick wrapper.</small></p>
+                        <a href="#" class="button menu__button">$1.89</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/appetizers/steamedporkdumplings.jpg" alt="Steamed Pork Dumplings" class="menu__img">
+                        <p><b>Steamed Pork Dumplings</b></br><small>(8 pc) Juicy pork-filled dumplings steamed to tender perfection.</small></p>
+                        <a href="#" class="button menu__button">$5.50</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/appetizers/vegetableeggroll.jpg" alt="Vegetable Egg Roll" class="menu__img">
+                        <p><b>Vegetable Egg Roll</b></br><small>(2 pc) Crisp egg roll filled with fresh, flavorful vegetables and fried to a golden hue.</small></p>
+                        <a href="#" class="button menu__button">$2.99</a>
+                    </div>
+                </div>
+            </section>
+            
+
+            <section class="menu section bd-container" id="fried-rice">
+                <h2 class="section-title">Fried Rice</h2>
+            
+                <div class="menu__container bd-grid">
+                    <!-- Items WITH pictures -->
+                    <div class="menu__content">
+                        <img src="images/friedrice/housespecialfriedrice.jpg" alt="House Special Fried Rice" class="menu__img">
+                        <p><b>House Special Fried Rice</b></br><small>Our signature fried rice loaded with chicken, shrimp, pork, and fresh vegetables.</small></p>
+                        <a href="#" class="button menu__button">$12.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/friedrice/chickenfriedrice.jpg" alt="Chicken Fried Rice" class="menu__img">
+                        <p><b>Chicken Fried Rice</b></br><small>Flavorful fried rice mixed with juicy chicken, carrots, peas, and onions.</small></p>
+                        <a href="#" class="button menu__button">$9.75</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/friedrice/porkfriedrice.jpg" alt="Pork Fried Rice" class="menu__img">
+                        <p><b>Pork Fried Rice</b></br><small>Rich and savory fried rice mixed with tender pork and veggies.</small></p>
+                        <a href="#" class="button menu__button">$9.75</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/friedrice/shrimpfriedrice.jpg" alt="Shrimp Fried Rice" class="menu__img">
+                        <p><b>Shrimp Fried Rice</b></br><small>Savory fried rice with plump shrimp and a dash of soy sauce.</small></p>
+                        <a href="#" class="button menu__button">$9.75</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/friedrice/regularfriedrice.jpg" alt="Regular Fried Rice" class="menu__img">
+                        <p><b>Regular Fried Rice</b></br><small>Classic fried rice with a medley of the trifecta peas, carrots, and onions.</small></p>
+                        <a href="#" class="button menu__button">$7.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/friedrice/plainfriedrice.jpg" alt="Plain Fried Rice" class="menu__img">
+                        <p><b>Plain Fried Rice</b></br><small>Simple yet satisfying base, stir-fried with garlic and soy sauce.</small></p>
+                        <a href="#" class="button menu__button">$7.50</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/friedrice/steamedwhiterice.jpg" alt="Steamed White Rice" class="menu__img">
+                        <p><b>Steamed White Rice</b></br><small>Fluffy and perfectly steamed white rice, ideal as a side dish.</small></p>
+                        <a href="#" class="button menu__button">$6.25</a>
+                    </div>
+            
+                    <!-- Items WITHOUT pictures -->
+                    <div class="menu__content">
+                        <p><b>Beef Fried Rice</b></br><small>Classic stir-fried rice with tender beef, fresh vegetables, and soy sauce.</small></p>
+                        <a href="#" class="button menu__button">$9.50</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Crab Fried Rice</b></br><small>Delicious fried rice cooked with crab meat and aromatic garlic soy sauce.</small></p>
+                        <a href="#" class="button menu__button">$9.75</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Vegetable Fried Rice</b></br><small>A healthier option featuring fresh broccoli, mushrooms, and cabbage, perfectly complemented by a classic trio of peas, carrots, and onions.</small></p>
+                        <a href="#" class="button menu__button">$8.75</a>
+                    </div>
+                </div>
+            </section>
+            
+
+            <section class="menu section bd-container" id="noodles">
+                <h2 class="section-title">Noodles</h2>
+            
+                <div class="menu__container bd-grid">
+                    <!-- Items WITH pictures -->
+                    <div class="menu__content">
+                        <img src="images/noodles/housespeciallomein.jpg" alt="House Special Lo Mein" class="menu__img">
+                        <p><b>House Special Lo Mein</b></br><small>A hearty medley of shrimp, chicken, and pork tossed with thick egg noodles in a savory sauce.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/noodles/chickenlomein.jpg" alt="Chicken Lo Mein" class="menu__img">
+                        <p><b>Chicken Lo Mein</b></br><small>Tender chicken stir-fried with thick egg noodles, carrots, onions, and cabbage in a flavorful sauce.</small></p>
+                        <a href="#" class="button menu__button">$9.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/noodles/beeflomein.jpg" alt="Beef Lo Mein" class="menu__img">
+                        <p><b>Beef Lo Mein</b></br><small>Juicy beef stir-fried with thick egg noodles, onions, and carrots for a bold, flavorful dish.</small></p>
+                        <a href="#" class="button menu__button">$9.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/noodles/shrimplomein.jpg" alt="Shrimp Lo Mein" class="menu__img">
+                        <p><b>Shrimp Lo Mein</b></br><small>Plump shrimp stir-fried with thick egg noodles and crisp vegetables in a savory sauce.</small></p>
+                        <a href="#" class="button menu__button">$9.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/noodles/crablomein.jpg" alt="Crab Lo Mein" class="menu__img">
+                        <p><b>Crab Lo Mein</b></br><small>Succulent crab paired with thick egg noodles and stir-fried vegetables in a rich sauce.</small></p>
+                        <a href="#" class="button menu__button">$9.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/noodles/vegetablelomein.jpg" alt="Vegetable Lo Mein" class="menu__img">
+                        <p><b>Vegetable Lo Mein</b></br><small>A fresh mix of carrots, cabbage, and onions tossed with thick egg noodles in a light sauce.</small></p>
+                        <a href="#" class="button menu__button">$9.99</a>
+                    </div>
+            
+                    <!-- Items WITHOUT pictures -->
+                    <div class="menu__content">
+                        <p><b>Pork Lo Mein</b></br><small>Savory pork with thick egg noodles and fresh vegetables in a rich sauce.</small></p>
+                        <a href="#" class="button menu__button">$9.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Singapore Rice Noodle</b></br><small>A flavorful blend of shrimp, chicken, and pork stir-fried with thin rice noodles, cabbage, onions, and carrots in a light curry sauce.</small></p>
+                        <a href="#" class="button menu__button">$9.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Chicken Mei Fun</b></br><small>Tender chicken stir-fried with thin rice noodles, carrots, onions, and cabbage for a light and delicious option.</small></p>
+                        <a href="#" class="button menu__button">$8.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Beef Mei Fun</b></br><small>Juicy beef combined with thin rice noodles, crisp vegetables, and a touch of soy for a balanced flavor.</small></p>
+                        <a href="#" class="button menu__button">$9.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Shrimp Mei Fun</b></br><small>Delicate shrimp stir-fried with thin rice noodles, cabbage, onions, and carrots for a fresh, satisfying dish.</small></p>
+                        <a href="#" class="button menu__button">$9.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>House Mei Fun</b></br><small>A healthier mix of carrots, cabbage, and onions stir-fried with thin rice noodles for a wholesome option.</small></p>
+                        <a href="#" class="button menu__button">$9.99</a>
+                    </div>
+                </div>
+            </section>
+            
+
+            <section class="menu section bd-container" id="chef-specialties">
+                <h2 class="section-title">Chef Specialties</h2>
+            
+                <div class="menu__container bd-grid">
+                    <!-- Items WITH pictures -->
+                    <div class="menu__content">
+                        <img src="images/chefspecialties/orangechicken.jpg" alt="Orange Chicken" class="menu__img">
+                        <p><b>Orange Chicken</b></br><small>Crispy chicken tossed in a zesty orange sauce with just the right balance of sweet and tangy.</small></p>
+                        <a href="#" class="button menu__button">$14.95</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/chefspecialties/sesamechicken.jpg" alt="Sesame Chicken" class="menu__img">
+                        <p><b>Sesame Chicken</b></br><small>Crispy chicken coated in a sweet sesame glaze, garnished with sesame seeds for a delightful crunch.</small></p>
+                        <a href="#" class="button menu__button">$14.95</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/chefspecialties/happyfamily.jpg" alt="Happy Family" class="menu__img">
+                        <p><b>Happy Family</b></br><small>A harmonious blend of chicken, shrimp, pork, crab meat, broccoli, mushrooms, and carrots cooked in a savory brown sauce.</small></p>
+                        <a href="#" class="button menu__button">$14.95</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/chefspecialties/seafooddelight.jpg" alt="Seafood Delight" class="menu__img">
+                        <p><b>Seafood Delight</b></br><small>A seafood lover's dream with shrimp, lobster, crab, bay scallops, mushrooms, broccoli, and carrots in a delicate white sauce.</small></p>
+                        <a href="#" class="button menu__button">$15.95</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/chefspecialties/mongolianbeef.jpg" alt="Mongolian Beef" class="menu__img">
+                        <p><b>Mongolian Beef</b></br><small>Tender slices of beef stir-fried with onions and green onions in a savory brown sauce, full of bold flavors.</small></p>
+                        <a href="#" class="button menu__button">$14.95</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/chefspecialties/szechuanchicken.jpg" alt="Szechuan Chicken" class="menu__img">
+                        <p><b>Szechuan Chicken</b></br><small>A spicy Szechuan-style chicken stir-fry with peppers, onions, and a bold, flavorful sauce.</small></p>
+                        <a href="#" class="button menu__button">$14.95</a>
+                    </div>
+            
+                    <!-- Items WITHOUT pictures -->
+                    <div class="menu__content">
+                        <p><b>Four Seasons</b></br><small>A medley of chicken, shrimp, pork, and beef stir-fried with broccoli, mushrooms, and carrots for a balanced feast of flavors.</small></p>
+                        <a href="#" class="button menu__button">$14.95</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Mongolian Chicken</b></br><small>Tender chicken stir-fried with crisp green onions and sweet onions in a savory and slightly sweet Mongolian-style sauce.</small></p>
+                        <a href="#" class="button menu__button">$14.95</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>General Tso's Chicken</b></br><small>Golden, crispy chicken coated in a rich, tangy, and slightly spicy glaze for a crowd-pleasing classic.</small></p>
+                        <a href="#" class="button menu__button">$14.95</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Hunan Chicken</b></br><small>Spicy chicken stir-fried with broccoli, mushrooms, and carrots in a savory brown sauce with a peppery kick.</small></p>
+                        <a href="#" class="button menu__button">$14.95</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Hunan Shrimp</b></br><small>Succulent shrimp cooked with broccoli, mushrooms, and carrots in a fiery, flavorful sauce with a touch of spice.</small></p>
+                        <a href="#" class="button menu__button">$14.95</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Hunan Chicken & Beef</b></br><small>A perfect combination of tender chicken and beef with broccoli, mushrooms, and carrots in a spicy Hunan sauce.</small></p>
+                        <a href="#" class="button menu__button">$14.95</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Szechuan Chicken & Beef</b></br><small>A robust mix of chicken and beef stir-fried with peppers and onions in a bold, spicy Szechuan sauce.</small></p>
+                        <a href="#" class="button menu__button">$14.95</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Hot & Spicy Chicken</b></br><small>A fiery tomato-based brown sauce with hot peppers, onions, peas, and carrots coats tender chicken.</small></p>
+                        <a href="#" class="button menu__button">$14.95</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Hot & Spicy Beef</b></br><small>Beef simmered in a fiery tomato-based sauce with hot peppers, peas, carrots, and onions.</small></p>
+                        <a href="#" class="button menu__button">$14.95</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Hot & Spicy Shrimp</b></br><small>Succulent shrimp tossed in a hot and tangy tomato-based sauce with fresh vegetables for an extra kick.</small></p>
+                        <a href="#" class="button menu__button">$14.95</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Small Party Tray</b></br><small></small></p>
+                        <a href="#" class="button menu__button">$39.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Large Party Tray</b></br><small></small></p>
+                        <a href="#" class="button menu__button">$59.99</a>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="menu section bd-container" id="chicken">
+                <h2 class="section-title">Chicken</h2>
+            
+                <div class="menu__container bd-grid">
+                    <!-- Items WITH pictures -->
+                    <div class="menu__content">
+                        <img src="images/chicken/sweetandsourchicken.jpg" alt="Sweet & Sour Chicken" class="menu__img">
+                        <p><b>Sweet & Sour Chicken</b></br><small>Golden, juicy, batter-fried chicken served with a side of bright and tangy sweet & sour sauce.</small></p>
+                        <a href="#" class="button menu__button">$9.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/chicken/chickenwithbroccoli.jpg" alt="Chicken with Broccoli" class="menu__img">
+                        <p><b>Chicken with Broccoli</b></br><small>Tender chicken stir-fried with fresh broccoli in a savory brown sauce.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/chicken/generaltsoschicken.jpg" alt="General Tso's Chicken" class="menu__img">
+                        <p><b>General Tso's Chicken</b></br><small>Crispy chicken tossed in a tangy, sweet, and spicy sauce with a touch of heat.</small></p>
+                        <a href="#" class="button menu__button">$14.95</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/chicken/szechuanchicken.jpg" alt="Szechuan Chicken" class="menu__img">
+                        <p><b>Szechuan Chicken</b></br><small>Spicy chicken stir-fried with peppers, onions, and carrots in a fiery Szechuan sauce.</small></p>
+                        <a href="#" class="button menu__button">$14.95</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/chicken/sesamechicken.jpg" alt="Sesame Chicken" class="menu__img">
+                        <p><b>Sesame Chicken</b></br><small>Lightly battered chicken glazed in a sweet sesame sauce and topped with toasted sesame seeds.</small></p>
+                        <a href="#" class="button menu__button">$14.95</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/chicken/kungpaochicken.jpg" alt="Kung Pao Chicken" class="menu__img">
+                        <p><b>Kung Pao Chicken</b></br><small>Spicy chicken stir-fried with peanuts, peppers, and vegetables in a zesty sauce.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/chicken/moogoogaipian.jpg" alt="Moo Goo Gai Pan" class="menu__img">
+                        <p><b>Moo Goo Gai Pan</b></br><small>Tender chicken, mushrooms, carrots, and cabbage, all delicately stir-fried in a silky smooth white sauce.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/chicken/mongolianchicken.jpg" alt="Mongolian Chicken" class="menu__img">
+                        <p><b>Mongolian Chicken</b></br><small>Tender chicken stir-fried with crisp green onions and sweet onions in a savory and slightly sweet Mongolian-style sauce.</small></p>
+                        <a href="#" class="button menu__button">$14.95</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/noodles/chickenlomein.jpg" alt="Chicken Lo Mein" class="menu__img">
+                        <p><b>Chicken Lo Mein</b></br><small>Tender chicken stir-fried with thick egg noodles, carrots, onions, and cabbage in a flavorful sauce.</small></p>
+                        <a href="#" class="button menu__button">$9.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/friedrice/chickenfriedrice.jpg" alt="Chicken Fried Rice" class="menu__img">
+                        <p><b>Chicken Fried Rice</b></br><small>Flavorful fried rice mixed with juicy chicken, carrots, peas, and onions.</small></p>
+                        <a href="#" class="button menu__button">$9.75</a>
+                    </div>
+            
+                    <!-- Items WITHOUT pictures -->
+                    <div class="menu__content">
+                        <p><b>Chicken with Garlic Sauce</b></br><small>Succulent chicken sautéed with vegetables in a bold, spicy garlic sauce.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Chicken with Chinese Vegetable</b></br><small>Chicken stir-fried with a medley of fresh Chinese vegetables in a light sauce.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Chicken with Mixed Vegetable</b></br><small>Juicy chicken combined with a variety of seasonal vegetables in a flavorful sauce.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+                </div>
+            </section>
+            
+
+            <section class="menu section bd-container" id="pork">
+                <h2 class="section-title">Pork</h2>
+            
+                <div class="menu__container bd-grid">
+                    <!-- Items WITH pictures -->
+                    <div class="menu__content">
+                        <img src="images/pork/porkfriedrice.jpg" alt="Pork Fried Rice" class="menu__img">
+                        <p><b>Pork Fried Rice</b></br><small>Classic fried rice with pork, peas, carrots, and onions for a satisfying meal.</small></p>
+                        <a href="#" class="button menu__button">$9.75</a>
+                    </div>
+            
+                    <!-- Items WITHOUT pictures -->
+                    <div class="menu__content">
+                        <p><b>Pork Egg Foo Young</b></br><small>Fluffy egg patties filled with tender pork and vegetables, served with a savory brown sauce.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Pork Chow Mein</b></br><small>Classic Eastern-style pork chow mein topped with crispy wonton noodles.</small></p>
+                        <a href="#" class="button menu__button">$11.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Pork with Chinese Vegetable</b></br><small>Sautéed pork paired with a medley of fresh Chinese vegetables in a light, flavorful sauce.</small></p>
+                        <a href="#" class="button menu__button">$11.99</a>
+                    </div>
+                </div>
+            </section>
+            
+
+            <section class="menu section bd-container" id="beef">
+                <h2 class="section-title">Beef</h2>
+            
+                <div class="menu__container bd-grid">
+                    <!-- Items WITH pictures -->
+                    <div class="menu__content">
+                        <img src="images/beef/peppersteak.jpg" alt="Pepper Steak" class="menu__img">
+                        <p><b>Pepper Steak</b></br><small>Tender beef stir-fried with fresh bell peppers and onions in a savory brown sauce.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/beef/beefwithbroccoli.jpg" alt="Beef with Broccoli" class="menu__img">
+                        <p><b>Beef with Broccoli</b></br><small>Succulent beef stir-fried with crisp broccoli in a rich, flavorful sauce.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/noodles/beeflomein.jpg" alt="Beef Lo Mein" class="menu__img">
+                        <p><b>Beef Lo Mein</b></br><small>Juicy beef stir-fried with thick egg noodles, onions, and carrots for a bold, flavorful dish.</small></p>
+                        <a href="#" class="button menu__button">$9.99</a>
+                    </div>
+            
+                    <!-- Items WITHOUT pictures -->
+                    <div class="menu__content">
+                        <p><b>Beef with Mushrooms</b></br><small>Juicy beef stir-fried with tender mushrooms in a savory brown sauce.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Beef with Mixed Vegetables</b></br><small>Savory beef stir-fried with a variety of fresh seasonal vegetables in a rich sauce.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Beef Fried Rice</b></br><small>Classic stir-fried rice with tender beef, fresh vegetables, and soy sauce.</small></p>
+                        <a href="#" class="button menu__button">$9.50</a>
+                    </div>
+                </div>
+            </section>
+            
+
+            <section class="menu section bd-container" id="seafood">
+                <h2 class="section-title">Seafood</h2>
+            
+                <div class="menu__container bd-grid">
+                    <!-- Items WITH pictures -->
+                    <div class="menu__content">
+                        <img src="images/seafood/shrimpwithbroccoli.jpg" alt="Shrimp with Broccoli" class="menu__img">
+                        <p><b>Shrimp with Broccoli</b></br><small>Succulent shrimp stir-fried with fresh broccoli in a savory sauce.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/chefspecialties/seafooddelight.jpg" alt="Seafood Delight" class="menu__img">
+                        <p><b>Seafood Delight</b></br><small>A seafood lover's dream with shrimp, lobster, crab, bay scallops, mushrooms, broccoli, and carrots in a delicate white sauce.</small></p>
+                        <a href="#" class="button menu__button">$15.95</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/seafood/shrimpwithlobstersauce.jpg" alt="Shrimp with Lobster Sauce" class="menu__img">
+                        <p><b>Shrimp with Lobster Sauce</b></br><small>Classic shrimp in a silky white sauce with minced pork and peas for added flavor.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/seafood/shrimplomein.jpg" alt="Shrimp Lo Mein" class="menu__img">
+                        <p><b>Shrimp Lo Mein</b></br><small>Soft noodles stir-fried with shrimp and crisp vegetables in a savory sauce.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/seafood/crablomein.jpg" alt="Crab Lo Mein" class="menu__img">
+                        <p><b>Crab Lo Mein</b></br><small>Tender noodles mixed with real crab meat and vegetables in a rich sauce.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/seafood/shrimpfriedrice.jpg" alt="Shrimp Fried Rice" class="menu__img">
+                        <p><b>Shrimp Fried Rice</b></br><small>A timeless favorite, our tender shrimp take the center stage of this fried rice, complemented with fresh veggies.</small></p>
+                        <a href="#" class="button menu__button">$9.75</a>
+                    </div>
+            
+                    <!-- Items WITHOUT pictures -->
+                    <div class="menu__content">
+                        <p><b>Shrimp with Mixed Vegetables</b></br><small>Juicy shrimp paired with a variety of seasonal vegetables in a flavorful sauce.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Shrimp with Garlic Sauce</b></br><small>Plump shrimp sautéed in a bold and garlicky sauce with fresh vegetables.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Curry Shrimp</b></br><small>Shrimp simmered in a fragrant curry sauce with fresh vegetables for bold flavor.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+                </div>
+            </section>
+            
+
+            <section class="menu section bd-container" id="vegetable">
+                <h2 class="section-title">Vegetable</h2>
+            
+                <div class="menu__container bd-grid">
+                    <!-- Items WITH pictures -->
+                    <div class="menu__content">
+                        <img src="images/vegetable/broccoliwithgarlicsauce.jpg" alt="Broccoli with Garlic Sauce" class="menu__img">
+                        <p><b>Broccoli with Garlic Sauce</b></br><small>Fresh broccoli stir-fried in a garlic-infused sauce that's rich, sweet, and slightly spicy.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <img src="images/vegetable/beancurdwithblackbeansauce.jpg" alt="Bean Curd in Black Bean Sauce" class="menu__img">
+                        <p><b>Bean Curd in Black Bean Sauce</b></br><small>Tender tofu infused with the deep, savory flavor of our traditional black bean sauce.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+            
+                    <!-- Items WITHOUT pictures -->
+                    <div class="menu__content">
+                        <p><b>Bean Curd with Garlic Sauce</b></br><small>Silky bean curd simmered in a bold garlic sauce with a hint of sweetness and spice.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Bean Curd Szechuan Style</b></br><small>Soft bean curd simmered in our special in-house Szechuan sauce for a fiery and flavorful kick.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+            
+                    <div class="menu__content">
+                        <p><b>Mixed Vegetables</b></br><small>A medley of broccoli, carrots, mushrooms, cabbage, and onions stir-fried to perfection.</small></p>
+                        <a href="#" class="button menu__button">$10.99</a>
+                    </div>
+                </div>
+            </section>
+            
+
+            
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a class="footer__logo">Hong Kong City</a>
+                    <span class="footer__description">Chinese Restaurant</span>
+                    <div>
+                        <a href="https://www.facebook.com/" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://x.com/home" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Information</h3>
+                    <ul>
+                        <li><a class="footer__link">Hablamos Español.</a></li>
+                        <li><a class="footer__link">我们说普通话。</a></li>
+                        <li><a class="footer__link">Google Reviews</a></li>
+                        <li><a class="footer__link">Rate us on Yelp</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Hours Open</h3>
+                    <ul>
+                        <li><a class="footer__link">Sun, Mon &nbsp;&nbsp;&nbsp;11AM - 10PM</a></li>
+                        <li><a class="footer__link">Tues &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Closed</a></li>
+                        <li><a class="footer__link">Wed, Thur &nbsp;11AM - 10PM</a></li>
+                        <li><a class="footer__link">Fri, Sat &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11AM - 11PM</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Contact</h3>
+                    <ul>
+                        <li><a class="footer__link">2142 S Cobb Dr SE</a></li>
+                        <li><a class="footer__link">Smyrna, GA 30082</a></li>
+                        <li><a class="footer__link">(770) 436 - 6887</a></li>
+                        <li><a class="footer__link">hongkongcitysmyrna@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2025 Hong Kong City Smyrna. All right reserved.</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+
+        <!--========== PARTICLES.JS ==========-->
+        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script src="assets/js/particles-config.js"></script> <!-- Your custom particle config -->
+
+    </body>
+</html>
